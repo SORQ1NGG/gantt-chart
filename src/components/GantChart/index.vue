@@ -1,0 +1,1 @@
+<script>export default {  name: 'GantChart'}</script><script setup>import {onMounted} from "vue";import {Gantt} from "../../composables/gantt-chart.js";onMounted(() => {  Gantt()})</script><template>  <div>    <h2>Vue.js and D3 Gantt Chart</h2>    <div id="chart"></div>  </div></template>
